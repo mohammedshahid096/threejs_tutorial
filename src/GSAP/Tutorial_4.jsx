@@ -11,6 +11,7 @@ const Tutorial_4 = () => {
   });
   return (
     <div className="space-y-5">
+      <h1 className="text-center text-5xl font-bold">Tutorial-4 (Timeline)</h1>
       <div className="h-32 w-32 bg-slate-700 box1"></div>
       <div className="h-32 w-32 bg-purple-300  box2"></div>
       <div className="h-32 w-32 bg-green-400 box3"></div>

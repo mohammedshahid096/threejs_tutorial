@@ -2,6 +2,7 @@ import Tutorial_1 from "./GSAP/Tutorial_1";
 import Tutorial_2 from "./GSAP/Tutorial_2";
 import Tutorial_3 from "./GSAP/Tutorial_3";
 import Tutorial_4 from "./GSAP/Tutorial_4";
+import Tutorial_5 from "./GSAP/Tutorial_5";
 import Home from "./Home";
 import RapierTutorial_1 from "./RAPIER/Tutorial_1";
 import RapierTutorial_2 from "./RAPIER/Tutorial_2";
@@ -40,6 +41,12 @@ const routes = [
     element: Tutorial_4,
     category: "GSAP",
     componet: "Tutorial_4",
+  },
+  {
+    route: "/gsap/tutorial_5",
+    element: Tutorial_5,
+    category: "GSAP",
+    componet: "Tutorial_5",
   },
 
   //   three
