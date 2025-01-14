@@ -1,3 +1,4 @@
+import Book_3D_Tutorial from "./3D_Book/3D_Book";
 import Tutorial_1 from "./GSAP/Tutorial_1";
 import Tutorial_2 from "./GSAP/Tutorial_2";
 import Tutorial_3 from "./GSAP/Tutorial_3";
@@ -105,6 +106,14 @@ const routes = [
     element: RapierTutorial_5,
     category: "RAPIER",
     componet: "RapierTutorial_5",
+  },
+
+  // 3D Book Tutorial
+  {
+    route: "/3d-book/tutorial_1",
+    element: Book_3D_Tutorial,
+    category: "3D_Book",
+    componet: "Book_3D_Tutorial",
   },
 ];
 
